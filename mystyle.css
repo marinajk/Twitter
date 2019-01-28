@@ -25,9 +25,20 @@ border-left-color: white;
     overflow-x: hidden;
    
 }
+.twitterIcon-bird
+{
+    overflow:hidden;
+    position: relative;
+    align-items: center;
+    height: 140vh;
+    right: -80vh;
+    top: -20vh;
+    position: absolute;
+}
 .left 
 {
-    
+    align-content: center;
+    overflow: hidden;
     left: 0;
     font-size: 18px;
   color:white;
@@ -35,7 +46,7 @@ border-left-color: white;
   font-weight:bold;
   line-height: 24px;
   
-    background-color: #1da1f2;
+    background-color: #1da1f2 ;
 }
 .list
 {
@@ -144,6 +155,7 @@ border: #1da1f2 1px solid;
   {
       position: relative;
   top:13;
+  z-index:-1;
     }
     a{
         color:#aab8c2;
